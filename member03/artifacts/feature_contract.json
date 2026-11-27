@@ -1,0 +1,44 @@
+{
+  "raw_numeric_inputs": [
+    "Req_Finish_Fabrics",
+    "Fabric_Allowance",
+    "Shrink_allow",
+    "Req_grey_fabric",
+    "Req_beam_length(yds)",
+    "warp_count",
+    "weft_count",
+    "epi",
+    "ppi"
+  ],
+  "raw_categorical_inputs": [
+    "Construction"
+  ],
+  "engineered_candidates": [
+    "Thread_Density",
+    "EPI_PPI_Ratio",
+    "Log_Order_Size",
+    "Fabric_Expansion_Ratio"
+  ],
+  "target": "Rejection",
+  "target_unit": "unverified_recorded_amount",
+  "prediction_lower_bound": 0,
+  "missing_input_values": "training_fold_median_or_Missing_category",
+  "unseen_construction": "OneHotEncoder(handle_unknown=ignore)",
+  "selected_predictor": "random_forest",
+  "selected_features": [
+    "Req_Finish_Fabrics",
+    "Fabric_Allowance",
+    "Shrink_allow",
+    "Req_grey_fabric",
+    "Req_beam_length(yds)",
+    "warp_count",
+    "weft_count",
+    "epi",
+    "ppi",
+    "Thread_Density",
+    "EPI_PPI_Ratio",
+    "Log_Order_Size",
+    "Fabric_Expansion_Ratio",
+    "Construction"
+  ]
+}

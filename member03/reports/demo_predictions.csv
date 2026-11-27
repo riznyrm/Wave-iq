@@ -1,0 +1,4 @@
+Req_Finish_Fabrics,Fabric_Allowance,Shrink_allow,Req_grey_fabric,Req_beam_length(yds),warp_count,weft_count,epi,ppi,Construction,Predicted_Rejection,Model,Prediction_Unit
+31300.0,6.0,12.5,33297.87234042553,34797.651102963246,40,80.0,110,80,40+40/2/40/110x80,281.7253961677245,random_forest,unverified_recorded_amount
+10450.0,7.0,14.5,11236.559139784946,12017.350432056524,40,40.0,110,90,40x40/110x90,13.788737571601331,random_forest,unverified_recorded_amount
+900.0,11.5,12.5,1016.9491525423728,1062.7538431835856,40,40.0,110,80,40x40/110x80,6.417368417323907,random_forest,unverified_recorded_amount

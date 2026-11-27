@@ -1,0 +1,15 @@
+{
+  "selection_metric": "mean_5_fold_development_MAE_original_target_scale",
+  "selected_predictor": "random_forest",
+  "best_main_model": "random_forest",
+  "selection_includes_baseline": true,
+  "model_sha256": {
+    "dummy_median": "95bae34c681cb529c336da3c5290d6ab1098ef66023c12967fb8433c1502a202",
+    "ridge": "ff022686dce915be7a547d093ea572ea59ad89c35647df2861dc8094da124d7a",
+    "decision_tree": "17b6cf0c34ba40a2694d151c3944ed5e13a74d2864db86c1ff59012da99f9614",
+    "random_forest": "559e00cc2909934ad0d19e7536c56d1cdb4210755f4a9dc6c8f179580802e77c"
+  },
+  "seed": 42,
+  "fit_population": "development_only; test_and_purged_rows_never_fitted",
+  "status": "research_prototype_pending_upstream_semantic_validation"
+}

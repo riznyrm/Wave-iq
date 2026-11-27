@@ -1,0 +1,90 @@
+{
+  "ridge": {
+    "best_parameters": {
+      "features__variant": "engineered",
+      "model__func": "numpy.log1p",
+      "model__inverse_func": "waveiq.features.nonnegative_expm1",
+      "model__regressor__alpha": 0.001
+    },
+    "selected_candidate": 45,
+    "candidate_count": 72,
+    "feature_variant": "engineered",
+    "target_transform": "log1p",
+    "selected_features": [
+      "Req_Finish_Fabrics",
+      "Fabric_Allowance",
+      "Shrink_allow",
+      "Req_grey_fabric",
+      "Req_beam_length(yds)",
+      "warp_count",
+      "weft_count",
+      "epi",
+      "ppi",
+      "Thread_Density",
+      "EPI_PPI_Ratio",
+      "Log_Order_Size",
+      "Fabric_Expansion_Ratio",
+      "Construction"
+    ]
+  },
+  "decision_tree": {
+    "best_parameters": {
+      "model__regressor__min_samples_split": 2,
+      "model__regressor__min_samples_leaf": 20,
+      "model__regressor__max_depth": 5,
+      "model__regressor__criterion": "squared_error",
+      "model__regressor__ccp_alpha": 0.0,
+      "model__inverse_func": "waveiq.features.nonnegative_expm1",
+      "model__func": "numpy.log1p",
+      "features__variant": "original"
+    },
+    "selected_candidate": 27,
+    "candidate_count": 40,
+    "feature_variant": "original",
+    "target_transform": "log1p",
+    "selected_features": [
+      "Req_Finish_Fabrics",
+      "Fabric_Allowance",
+      "Shrink_allow",
+      "Req_grey_fabric",
+      "Req_beam_length(yds)",
+      "warp_count",
+      "weft_count",
+      "epi",
+      "ppi",
+      "Construction"
+    ]
+  },
+  "random_forest": {
+    "best_parameters": {
+      "model__regressor__n_estimators": 150,
+      "model__regressor__min_samples_leaf": 10,
+      "model__regressor__max_samples": 0.7,
+      "model__regressor__max_features": 0.5,
+      "model__regressor__max_depth": null,
+      "model__inverse_func": "waveiq.features.nonnegative_expm1",
+      "model__func": "numpy.log1p",
+      "features__variant": "engineered"
+    },
+    "selected_candidate": 24,
+    "candidate_count": 32,
+    "feature_variant": "engineered",
+    "target_transform": "log1p",
+    "selected_features": [
+      "Req_Finish_Fabrics",
+      "Fabric_Allowance",
+      "Shrink_allow",
+      "Req_grey_fabric",
+      "Req_beam_length(yds)",
+      "warp_count",
+      "weft_count",
+      "epi",
+      "ppi",
+      "Thread_Density",
+      "EPI_PPI_Ratio",
+      "Log_Order_Size",
+      "Fabric_Expansion_Ratio",
+      "Construction"
+    ]
+  }
+}
